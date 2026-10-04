@@ -144,6 +144,25 @@
     <p>&copy; 2026 Vinay Kumar Godena.</p>
   </footer>
 
+  <!-- AI Chat Widget -->
+  <button id="chat-toggle" class="chat-toggle" aria-expanded="false" aria-label="Open chat">
+    Ask me anything
+  </button>
+
+  <div id="chat-panel" class="chat-panel">
+    <div class="chat-panel-header">
+      <span>Chat</span>
+      <button id="chat-close" class="chat-close" aria-label="Close chat">&times;</button>
+    </div>
+    <div id="chat-messages" class="chat-messages">
+      <div class="chat-msg chat-msg--assistant">Hi! Ask me anything about Vinay's background, skills, or experience.</div>
+    </div>
+    <form id="chat-form" class="chat-form">
+      <input id="chat-input" type="text" placeholder="Type a message…" autocomplete="off" maxlength="1000" />
+      <button type="submit">Send</button>
+    </form>
+  </div>
+
   <script src="script.js"></script>
 </body>
 </html>
