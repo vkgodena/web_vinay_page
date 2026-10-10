@@ -82,7 +82,6 @@ Professional Scrum Master (PSM-1).`,
     text: `At Livingston IT Consulting Ltd, Vinay did web based manual testing: functional
 testing, business process, and system architecture and design. Project technology: C#;
 end-to-end, usability, regression, UAT, smoke and sanity testing; testing tools
-TestRail, Postman, Newman and REST Assured API. Certification: Professional Scrum
-Master (PSM-1).`,
+TestRail, Postman, Newman and REST Assured API. Certification: ISTQB Certified Tester Foundation Level.`,
   },
 ];

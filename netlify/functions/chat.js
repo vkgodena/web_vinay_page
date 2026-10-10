@@ -67,7 +67,7 @@ Here is Vinay's work history, which you should draw on for specific questions:
 3. Livingston IT Consulting Ltd — Web based manual testing (Sep 2017 - Oct 2019)
    Functional testing, business process, and system architecture and design.
    Technologies: C#, E2E/Usability/Regression/UAT/Smoke/Sanity testing, TestRail,
-   Postman, Newman, REST Assured API. Certification: Professional Scrum Master (PSM-1).
+   Postman, Newman, REST Assured API. Certification: ISTQB Certified Tester Foundation Level.
 
 Answer visitor questions about Vinay's background, skills, and experience using the
 details above. Keep answers brief (2-4 sentences) and friendly. If asked something
