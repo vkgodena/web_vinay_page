@@ -407,3 +407,12 @@ section h2 {
     bottom: 1rem;
   }
 }
+
+/* RAG sources line under an assistant answer */
+.chat-sources {
+  margin-top: 0.45rem;
+  padding-top: 0.35rem;
+  border-top: 1px solid var(--line);
+  font-size: 0.72rem;
+  color: var(--ink-soft);
+}

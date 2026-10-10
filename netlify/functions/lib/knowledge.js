@@ -51,7 +51,8 @@ LangChain ecosystem.`,
     id: "certifications",
     title: "Certifications",
     text: `Vinay holds these certifications: AI for Everyone, OCI AI Foundations
-Associate, and Professional Scrum Master (PSM-1).`,
+Associate, Professional Scrum Master (PSM-1), and ISTQB Certified Tester
+Foundation Level.`,
   },
   {
     id: "netcompany-hmrc",

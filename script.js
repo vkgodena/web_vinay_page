@@ -70,6 +70,16 @@ console.log("Site loaded. Ready for the next step.");
       }
 
       typingEl.textContent = data.reply;
+
+      // Show which pieces of knowledge the answer was based on (RAG sources).
+      if (Array.isArray(data.sources) && data.sources.length) {
+        const src = document.createElement("div");
+        src.className = "chat-sources";
+        src.textContent = "Based on: " + data.sources.map((s) => s.label).join(", ");
+        typingEl.appendChild(src);
+      }
+      messagesEl.scrollTop = messagesEl.scrollHeight;
+
       history.push({ role: "assistant", content: data.reply });
     } catch (err) {
       typingEl.textContent = "Sorry, I couldn't connect. Please try again.";
